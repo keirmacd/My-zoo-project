@@ -28,4 +28,9 @@ public class TestEnclosure {
         enclosure.addAnimal(animal);
         assertEquals(1, enclosure.getSize());
     }
+    @Test
+    public void testRemoveAnimal(){
+        enclosure.removeAnimal(animal);
+        assertEquals(0, enclosure.getSize());
+    }
 }

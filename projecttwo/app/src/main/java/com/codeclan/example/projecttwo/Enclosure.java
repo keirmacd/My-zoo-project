@@ -21,6 +21,9 @@ public class Enclosure {
     public int getSize(){
         return animals.size();
     }
+    public void removeAnimal(Animal animal){
+       animals.remove(animal);
+    }
 
 //    public ArrayList<String> getAnimalNames() {
 //
