@@ -1,5 +1,8 @@
 package com.codeclan.example.projecttwo;
 
+import java.util.Scanner;
+
+import static android.R.attr.data;
 import static com.codeclan.example.projecttwo.Type.ELECTRIC;
 import static com.codeclan.example.projecttwo.Type.FIRE;
 import static com.codeclan.example.projecttwo.Type.GRASS;
@@ -42,8 +45,5 @@ public class  Runner {
         System.out.println(animal3.getName() + " the " + animal3.getSpecies() + " which is a " + animal3.getType() + " pokemon");
         enclosure4.addAnimal(animal4);
         System.out.println(animal4.getName() + " the " + animal4.getSpecies() + " which is a " + animal4.getType() + " pokemon");
-
-
     }
 }
-//
